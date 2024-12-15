@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dimalahmad.kpu.app-mergeDebugResources-51:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\GmailCompose\\caches\\8.9\\transforms\\d75cd4105a0115256322eec3a6f8d3c1\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

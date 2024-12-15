@@ -1,0 +1,436 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.databinding:viewbinding:8.7.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\613e7b5127f39eeee31b0de9347ef318\transformed\jetified-viewbinding-8.7.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\0f973542f8e2f950a6dfc41141db9297\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\31df43c4997306709157f62bec2f0eef\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ba7695ead35077531ca2a62be3e1efae\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3818cbdf0bd74df43f8fbe31086fb564\transformed\navigation-runtime-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\25ff8c37485ce61ca03c1d43850ef095\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\c1ea481bf59af2ba9ef4cb3608918d6c\transformed\navigation-fragment-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\524d2452c67739c42755b9ecaa612e1b\transformed\navigation-ui-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\fdb993b86fa0c3f2a62573f72bd02207\transformed\navigation-ui-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d75cd4105a0115256322eec3a6f8d3c1\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\23b9fb5461f2cccae5debdf106e6483f\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\74f2b4884c74b7d3807fae3adb80a70e\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\b92d9f0539d28cf32f28b8aa54a4583e\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a02ffe8b7105328a9f64004eaaec07e9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5467355e616ff3896e6fdf146dbd26bc\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\7f4718bd302a6135c88374968a453d3d\transformed\jetified-fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\992c4034943e96e804d6a163e4f0a26e\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\c13a52f873175c590e266625114d72e1\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3553817ddc61ee9e1a62e681154373e6\transformed\jetified-activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d71c9738619b14fda4916ff29c378216\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4812d78d1707495b8d883c8f036cd286\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6ff1ea78bb36e0e93977240015d6a4e8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\83c4ac3260e24de441f4a00acda17226\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\694ffa982c134750c0827dbf23cfd1fb\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\b6f512292cf2871bd87eba51863653ad\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a178c1a6397093ea127409d307c9c4b2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ce1bb6e0af55dd6f6bab61a9a49bcea3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\0686717d922f8cc1c37bff851e17e6b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9789974e912b660d5b2e7ae9ccc35f44\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2915c7ac3b1940a91360d8f4f3df2df3\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\94bb2943c44e9460d536b63327613265\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\125e616d2741cd2965d0aefa8698e13c\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9f24c863a9f36e6ff40c8ea43a2e7c3b\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\417663651b6f590d86265b39c5bbfcab\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\dbde2ae80fb686d365ed1f8be8ad969a\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4a1c2f03cc87e0b0c21b91271e7c68e0\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4551bda8b1fcfec0bd771e1e7c6ed356\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\612ae4f4334308f78633a0c3a6377414\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\30cacc53caa382acec1752c90428377a\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\791f9dc6bc60f916f4e86087705f05fb\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d175de0ce83e10d7b722b1962a3c88cc\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3bc86375cb2203a9f23b3ef61c6a3644\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\44ab4218d0da3257b874b2b2fbbfe346\transformed\jetified-core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6f813a0e0ef1babe75c9582f5458fc6c\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\492b6f1f0b66e0552490d77dcb2c271d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\32971e47c965217c527b9d301a7ff548\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c81961c65bec2f24c8bffee95667ba3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3097544bf346c32a91428b322925030d\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\bb66af88817ade12c5d608806010c3eb\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\bb329f5aebfee0b9c660f9b0f820cfe6\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9956f527d08b7b5f0f784daa6886306d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d25a23720ccb1d560bb3767229144641\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ebd78c16d69b5190f6db6a6626165c69\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\520d48f5bc3e83654b52bc6c05279a9d\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\272ab2a4786e602384dbc09e05815f80\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4e6d3f09c77a73da22e56812faeda20a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\f63ebf20f7262bb21f394d78a32ec040\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\724c104d4fd88c1b07770d60e834e636\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:7:5-44:19
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:7:5-44:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d75cd4105a0115256322eec3a6f8d3c1\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d75cd4105a0115256322eec3a6f8d3c1\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\23b9fb5461f2cccae5debdf106e6483f\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\23b9fb5461f2cccae5debdf106e6483f\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a02ffe8b7105328a9f64004eaaec07e9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a02ffe8b7105328a9f64004eaaec07e9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c81961c65bec2f24c8bffee95667ba3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c81961c65bec2f24c8bffee95667ba3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9956f527d08b7b5f0f784daa6886306d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9956f527d08b7b5f0f784daa6886306d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:16:9-29
+	android:icon
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:15:9-41
+	android:dataExtractionRules
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.dimalahmad.kpu.UserHomeActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:18:13-45
+activity#com.dimalahmad.kpu.AdminHomeActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:20:9-22:40
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:21:13-46
+activity#com.dimalahmad.kpu.DetailActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:24:13-43
+activity#com.dimalahmad.kpu.EditActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:27:13-41
+activity#com.dimalahmad.kpu.CreateActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:30:13-43
+activity#com.dimalahmad.kpu.Login.RegisterActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:33:13-51
+activity#com.dimalahmad.kpu.Login.LoginActivity
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:35:9-43:20
+	android:exported
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:36:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml:41:27-74
+uses-sdk
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.7.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\613e7b5127f39eeee31b0de9347ef318\transformed\jetified-viewbinding-8.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.7.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\613e7b5127f39eeee31b0de9347ef318\transformed\jetified-viewbinding-8.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\0f973542f8e2f950a6dfc41141db9297\transformed\navigation-common-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\0f973542f8e2f950a6dfc41141db9297\transformed\navigation-common-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\31df43c4997306709157f62bec2f0eef\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\31df43c4997306709157f62bec2f0eef\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ba7695ead35077531ca2a62be3e1efae\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ba7695ead35077531ca2a62be3e1efae\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3818cbdf0bd74df43f8fbe31086fb564\transformed\navigation-runtime-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3818cbdf0bd74df43f8fbe31086fb564\transformed\navigation-runtime-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\25ff8c37485ce61ca03c1d43850ef095\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\25ff8c37485ce61ca03c1d43850ef095\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\c1ea481bf59af2ba9ef4cb3608918d6c\transformed\navigation-fragment-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\c1ea481bf59af2ba9ef4cb3608918d6c\transformed\navigation-fragment-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\524d2452c67739c42755b9ecaa612e1b\transformed\navigation-ui-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\524d2452c67739c42755b9ecaa612e1b\transformed\navigation-ui-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\fdb993b86fa0c3f2a62573f72bd02207\transformed\navigation-ui-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\fdb993b86fa0c3f2a62573f72bd02207\transformed\navigation-ui-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d75cd4105a0115256322eec3a6f8d3c1\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d75cd4105a0115256322eec3a6f8d3c1\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\23b9fb5461f2cccae5debdf106e6483f\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\23b9fb5461f2cccae5debdf106e6483f\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\74f2b4884c74b7d3807fae3adb80a70e\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\74f2b4884c74b7d3807fae3adb80a70e\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\b92d9f0539d28cf32f28b8aa54a4583e\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\b92d9f0539d28cf32f28b8aa54a4583e\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a02ffe8b7105328a9f64004eaaec07e9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a02ffe8b7105328a9f64004eaaec07e9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5467355e616ff3896e6fdf146dbd26bc\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5467355e616ff3896e6fdf146dbd26bc\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\7f4718bd302a6135c88374968a453d3d\transformed\jetified-fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\7f4718bd302a6135c88374968a453d3d\transformed\jetified-fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\992c4034943e96e804d6a163e4f0a26e\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\992c4034943e96e804d6a163e4f0a26e\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\c13a52f873175c590e266625114d72e1\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\c13a52f873175c590e266625114d72e1\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3553817ddc61ee9e1a62e681154373e6\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3553817ddc61ee9e1a62e681154373e6\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d71c9738619b14fda4916ff29c378216\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d71c9738619b14fda4916ff29c378216\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4812d78d1707495b8d883c8f036cd286\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4812d78d1707495b8d883c8f036cd286\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6ff1ea78bb36e0e93977240015d6a4e8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6ff1ea78bb36e0e93977240015d6a4e8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\83c4ac3260e24de441f4a00acda17226\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\83c4ac3260e24de441f4a00acda17226\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\694ffa982c134750c0827dbf23cfd1fb\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\694ffa982c134750c0827dbf23cfd1fb\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\b6f512292cf2871bd87eba51863653ad\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\b6f512292cf2871bd87eba51863653ad\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a178c1a6397093ea127409d307c9c4b2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a178c1a6397093ea127409d307c9c4b2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ce1bb6e0af55dd6f6bab61a9a49bcea3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ce1bb6e0af55dd6f6bab61a9a49bcea3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\0686717d922f8cc1c37bff851e17e6b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\0686717d922f8cc1c37bff851e17e6b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9789974e912b660d5b2e7ae9ccc35f44\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9789974e912b660d5b2e7ae9ccc35f44\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2915c7ac3b1940a91360d8f4f3df2df3\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2915c7ac3b1940a91360d8f4f3df2df3\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\94bb2943c44e9460d536b63327613265\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\94bb2943c44e9460d536b63327613265\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\125e616d2741cd2965d0aefa8698e13c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\125e616d2741cd2965d0aefa8698e13c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9f24c863a9f36e6ff40c8ea43a2e7c3b\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9f24c863a9f36e6ff40c8ea43a2e7c3b\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\417663651b6f590d86265b39c5bbfcab\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\417663651b6f590d86265b39c5bbfcab\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\dbde2ae80fb686d365ed1f8be8ad969a\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\dbde2ae80fb686d365ed1f8be8ad969a\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4a1c2f03cc87e0b0c21b91271e7c68e0\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4a1c2f03cc87e0b0c21b91271e7c68e0\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4551bda8b1fcfec0bd771e1e7c6ed356\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4551bda8b1fcfec0bd771e1e7c6ed356\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\612ae4f4334308f78633a0c3a6377414\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\612ae4f4334308f78633a0c3a6377414\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\30cacc53caa382acec1752c90428377a\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\30cacc53caa382acec1752c90428377a\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\791f9dc6bc60f916f4e86087705f05fb\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\791f9dc6bc60f916f4e86087705f05fb\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d175de0ce83e10d7b722b1962a3c88cc\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d175de0ce83e10d7b722b1962a3c88cc\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3bc86375cb2203a9f23b3ef61c6a3644\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3bc86375cb2203a9f23b3ef61c6a3644\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\44ab4218d0da3257b874b2b2fbbfe346\transformed\jetified-core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\44ab4218d0da3257b874b2b2fbbfe346\transformed\jetified-core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6f813a0e0ef1babe75c9582f5458fc6c\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6f813a0e0ef1babe75c9582f5458fc6c\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\492b6f1f0b66e0552490d77dcb2c271d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\492b6f1f0b66e0552490d77dcb2c271d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\32971e47c965217c527b9d301a7ff548\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\32971e47c965217c527b9d301a7ff548\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c81961c65bec2f24c8bffee95667ba3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c81961c65bec2f24c8bffee95667ba3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3097544bf346c32a91428b322925030d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3097544bf346c32a91428b322925030d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\bb66af88817ade12c5d608806010c3eb\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\bb66af88817ade12c5d608806010c3eb\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\bb329f5aebfee0b9c660f9b0f820cfe6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\bb329f5aebfee0b9c660f9b0f820cfe6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9956f527d08b7b5f0f784daa6886306d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9956f527d08b7b5f0f784daa6886306d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d25a23720ccb1d560bb3767229144641\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\d25a23720ccb1d560bb3767229144641\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ebd78c16d69b5190f6db6a6626165c69\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\ebd78c16d69b5190f6db6a6626165c69\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\520d48f5bc3e83654b52bc6c05279a9d\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\520d48f5bc3e83654b52bc6c05279a9d\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\272ab2a4786e602384dbc09e05815f80\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\272ab2a4786e602384dbc09e05815f80\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4e6d3f09c77a73da22e56812faeda20a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\4e6d3f09c77a73da22e56812faeda20a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\f63ebf20f7262bb21f394d78a32ec040\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\f63ebf20f7262bb21f394d78a32ec040\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\724c104d4fd88c1b07770d60e834e636\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\724c104d4fd88c1b07770d60e834e636\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\Downloads\PPAPBA_DimalKarim_A1_13_Room_KPU\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\6a44f1253b6bd52e496b06276c693f7d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\2c11bc1033efd783ec73de990f4112de\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a0f08ec7960c9f76b0cd14dc26bbd269\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.dimalahmad.kpu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.dimalahmad.kpu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\9eac325b05fdb27b9dae7c603037f16e\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\5a26c4fb7369a3774922fc7691a67f1c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\a16c395ecc4c9417c4f9f882567f82b0\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\Downloads\GmailCompose\caches\8.9\transforms\3f35ece6829e5f3a4fa2474fbd33a446\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
