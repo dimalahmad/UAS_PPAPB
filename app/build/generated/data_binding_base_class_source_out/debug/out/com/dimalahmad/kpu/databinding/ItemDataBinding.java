@@ -21,7 +21,7 @@ public final class ItemDataBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView delete;
+  public final ImageView favorite;
 
   @NonNull
   public final TextView nama;
@@ -32,10 +32,10 @@ public final class ItemDataBinding implements ViewBinding {
   @NonNull
   public final ImageView viewDetail;
 
-  private ItemDataBinding(@NonNull LinearLayout rootView, @NonNull ImageView delete,
+  private ItemDataBinding(@NonNull LinearLayout rootView, @NonNull ImageView favorite,
       @NonNull TextView nama, @NonNull TextView nomer, @NonNull ImageView viewDetail) {
     this.rootView = rootView;
-    this.delete = delete;
+    this.favorite = favorite;
     this.nama = nama;
     this.nomer = nomer;
     this.viewDetail = viewDetail;
@@ -68,9 +68,9 @@ public final class ItemDataBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.delete;
-      ImageView delete = ViewBindings.findChildViewById(rootView, id);
-      if (delete == null) {
+      id = R.id.favorite;
+      ImageView favorite = ViewBindings.findChildViewById(rootView, id);
+      if (favorite == null) {
         break missingId;
       }
 
@@ -92,7 +92,7 @@ public final class ItemDataBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemDataBinding((LinearLayout) rootView, delete, nama, nomer, viewDetail);
+      return new ItemDataBinding((LinearLayout) rootView, favorite, nama, nomer, viewDetail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

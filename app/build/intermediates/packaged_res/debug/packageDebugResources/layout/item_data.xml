@@ -33,6 +33,7 @@
             android:text="Roy Kafabih SIGMA SKIBIDI"
             android:textStyle="bold" />
 
+
         <!-- Ikon View Detail, untuk melihat detail data -->
         <ImageView
             android:id="@+id/viewDetail"
@@ -44,11 +45,11 @@
 
         <!-- Ikon Delete, untuk favorit data -->
         <ImageView
-            android:id="@+id/delete"
+            android:id="@+id/favorite"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="5dp"
             android:src="@drawable/baseline_star_outline_24" />
     </LinearLayout>
 </LinearLayout>

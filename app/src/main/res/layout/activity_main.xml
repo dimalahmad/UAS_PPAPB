@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgoundkpu"
+    android:orientation="vertical"
     android:gravity="center"
-    android:orientation="vertical">
+    android:padding="16dp">
 
-    <!-- Judul -->
+    <!-- Judul Halaman -->
     <TextView
         android:id="@+id/Text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data Pemilih Saat ini"
-        android:layout_marginTop="50dp"
+        android:text="Data Pemilih"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
         android:textSize="24sp"
+        android:textStyle="bold"
         android:layout_gravity="center_horizontal" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:background="@color/white" />
 
     <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
@@ -24,28 +36,34 @@
         android:layout_weight="1"
         tools:listitem="@layout/item_disaster" />
 
-    <!-- Button Logout -->
+    <!-- Button Tambah Pemilih -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_tambah"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/shape"
         android:layout_marginTop="16dp"
-        android:padding="16dp"
-        android:text="tambah pemilih"
+        android:layout_marginBottom="8dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/shape"
+        android:text="Tambah Pemilih"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
         android:layout_gravity="center_horizontal" />
 
     <!-- Button Logout -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_logout"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="16dp"
-        android:text="Log Out"
+        android:layout_marginBottom="30dp"
+        android:paddingVertical="12dp"
         android:background="@drawable/shape"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
         android:layout_gravity="center_horizontal" />
-
-
 </LinearLayout>

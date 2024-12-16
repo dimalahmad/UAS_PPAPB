@@ -1,75 +1,85 @@
 package com.dimalahmad.kpu
 
+import UserDataPemilihAdapter
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.dimalahmad.kpu.API.APIClient
 import com.dimalahmad.kpu.Database.DataPemilih
-import com.dimalahmad.kpu.Database.DataPemilihDao
-import com.dimalahmad.kpu.Database.DataPemilihDatabase
 import com.dimalahmad.kpu.Login.LoginActivity
 import com.dimalahmad.kpu.PrefManager.PrefManager
 import com.dimalahmad.kpu.databinding.ActivityUserHomeBinding
-import java.util.concurrent.ExecutorService
-import java.util.concurrent.Executors
+import com.dimalahmad.kpu.Network.APIService
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class UserHomeActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityUserHomeBinding // Binding untuk mengakses tampilan dari layout XML
-    private lateinit var prefManager: PrefManager // Manajer preferensi untuk memeriksa status login
-    private lateinit var dataPemilihDao: DataPemilihDao // Data access object untuk mengakses database pengguna
-    private lateinit var executorService: ExecutorService // Executor untuk menjalankan operasi database di background thread
-    private lateinit var adapter: DataPemilihAdapter // Adapter untuk RecyclerView yang menampilkan data pengguna
+    private lateinit var binding: ActivityUserHomeBinding
+    private lateinit var prefManager: PrefManager
+    private lateinit var adapter: UserDataPemilihAdapter
 
-    // Fungsi onCreate yang dipanggil ketika aktivitas pertama kali dibuat
+    // APIService instance
+    private val apiService: APIService = APIClient.getInstance()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityUserHomeBinding.inflate(layoutInflater) // Inisialisasi binding untuk layout
-        setContentView(binding.root) // Menetapkan layout sebagai tampilan aktivitas
-        prefManager = PrefManager.getInstance(this) // Inisialisasi PrefManager untuk memeriksa status login
+        binding = ActivityUserHomeBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        prefManager = PrefManager.getInstance(this)
 
-        checkLoginStatus() // Memeriksa status login
+        // Check login status
+        checkLoginStatus()
 
-        executorService = Executors.newSingleThreadExecutor() // Menyiapkan executor untuk operasi di background
+        // Set up RecyclerView
+        setupRecyclerView()
 
-        val db = DataPemilihDatabase.getDatabase(this) // Mendapatkan instance database
-        dataPemilihDao = db!!.dataPemilihDao() // Menginisialisasi DAO untuk operasi database
-
-        setupRecyclerView() // Mengatur RecyclerView untuk menampilkan daftar pengguna
-
-        // Menyiapkan listener untuk tombol logout
+        // Set up button listeners
         with(binding) {
             btnLogout.setOnClickListener {
-                prefManager.setLoggedIn(false)  // Mengubah status login menjadi false
-                navigateToLoginActivity()      // Pindah ke LoginActivity
+                prefManager.setLoggedIn(false)
+                navigateToLoginActivity()
             }
         }
     }
 
-    // Fungsi untuk mengatur RecyclerView dan adapter
     private fun setupRecyclerView() {
-        binding.recyclerView.layoutManager = LinearLayoutManager(this) // Menetapkan layout manager untuk RecyclerView
-        adapter = DataPemilihAdapter(this) {}// Menetapkan adapter untuk RecyclerView
-        binding.recyclerView.adapter = adapter // Menetapkan adapter pada RecyclerView
+        binding.recyclerView.layoutManager = LinearLayoutManager(this)
+        adapter = UserDataPemilihAdapter(this) { data ->  }
+        binding.recyclerView.adapter = adapter
 
-        // Observasi data dari database dan memperbarui adapter
-        dataPemilihDao.getAllDataPemilih().observe(this) { dataList ->
-            adapter.submitList(dataList) // Update dataset di adapter
-        }
+        // Fetch data from API and update UI
+        apiService.getAllPemilih().enqueue(object : Callback<List<DataPemilih>> {
+            override fun onResponse(
+                call: Call<List<DataPemilih>>,
+                response: Response<List<DataPemilih>>
+            ) {
+                if (response.isSuccessful) {
+                    val dataList = response.body() ?: emptyList()
+                    adapter.submitList(dataList)
+                } else {
+                    Toast.makeText(this@UserHomeActivity, "Failed to load data", Toast.LENGTH_SHORT).show()
+                }
+            }
+
+            override fun onFailure(call: Call<List<DataPemilih>>, t: Throwable) {
+                Toast.makeText(this@UserHomeActivity, "Error: ${t.message}", Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 
-    // Fungsi untuk memeriksa apakah pengguna sudah login atau belum
     private fun checkLoginStatus() {
-        val isLoggedIn = prefManager.isLoggedIn() // Mengecek status login
+        val isLoggedIn = prefManager.isLoggedIn()
         if (!isLoggedIn) {
-            navigateToLoginActivity() // Jika belum login, pindah ke LoginActivity
+            navigateToLoginActivity()
         }
     }
 
-    // Fungsi untuk menavigasi ke LoginActivity
     private fun navigateToLoginActivity() {
-        val intent = Intent(this@UserHomeActivity, LoginActivity::class.java) // Membuat intent untuk LoginActivity
-        startActivity(intent) // Memulai aktivitas login
-        finish() // Menutup UserHomeActivity setelah berpindah ke LoginActivity
+        val intent = Intent(this@UserHomeActivity, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }

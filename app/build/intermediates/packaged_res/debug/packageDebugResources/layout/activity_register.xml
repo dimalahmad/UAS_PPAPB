@@ -3,33 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:padding="16dp"
+    android:background="@drawable/backgoundkpu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login.RegisterActivity">
 
-    <!-- Judul Halaman Register -->
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/login"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        android:text="MASUK"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="24sp"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Gambar KPU -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="Logo KPU"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login" />
 
     <!-- Input untuk Username -->
     <EditText
         android:id="@+id/edt_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/shape"
         android:hint="Username"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
 
     <!-- Input untuk Password -->
     <EditText
@@ -62,13 +78,11 @@
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/white"
         android:background="@drawable/shape"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/black"
         android:text="Register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Confirmpassword" />
@@ -78,13 +92,11 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/white"
         android:background="@drawable/shape"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/black"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_register" />

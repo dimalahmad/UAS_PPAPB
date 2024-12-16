@@ -3052,6 +3052,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgoundkpu
 drawable baseline_delete_24
 drawable baseline_edit_24
 drawable baseline_login_24
@@ -3326,6 +3327,7 @@ id default_activity_button
 id delete
 id deltaRelative
 id dependency_ordering
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3372,6 +3374,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favorite
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3433,6 +3436,7 @@ id linear
 id listMode
 id list_item
 id locale
+id login
 id ltr
 id m3_side_sheet
 id main
@@ -3655,7 +3659,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

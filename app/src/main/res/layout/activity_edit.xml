@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="@drawable/backgoundkpu"
     android:orientation="vertical">
 
     <!-- Judul -->
@@ -12,10 +13,18 @@
         android:layout_height="wrap_content"
         android:text="Edit Data Pemilih"
         android:textSize="24sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="140dp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:gravity="center"
         android:layout_marginBottom="16dp" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:background="@color/white" />
 
     <!-- Input Nama Pemilih -->
     <TextView
@@ -23,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="Nama Pemilih"
         android:textSize="16sp"
+        android:textColor="@color/white"
         android:layout_marginBottom="8dp" />
 
     <EditText
@@ -41,6 +51,7 @@
         android:layout_height="wrap_content"
         android:text="NIK"
         android:textSize="16sp"
+        android:textColor="@color/white"
         android:layout_marginBottom="8dp" />
 
     <EditText
@@ -59,6 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Jenis Kelamin"
         android:textSize="16sp"
+        android:textColor="@color/white"
         android:layout_marginBottom="8dp" />
 
     <RadioGroup
@@ -72,12 +84,14 @@
             android:id="@+id/rb_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:text="Laki-laki" />
 
         <RadioButton
             android:id="@+id/rb_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:text="Perempuan" />
     </RadioGroup>
 
@@ -87,6 +101,7 @@
         android:layout_height="wrap_content"
         android:text="Alamat"
         android:textSize="16sp"
+        android:textColor="@color/white"
         android:layout_marginBottom="8dp" />
 
     <EditText
@@ -103,10 +118,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_simpan"
         android:layout_width="150dp"
-        android:layout_marginTop="50dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:background="@drawable/shape"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/black"
         android:textColor="@color/white"
         android:text="Simpan"
         android:padding="16dp"

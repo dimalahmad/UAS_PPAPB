@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
@@ -36,18 +38,27 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText edtUsername;
 
   @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final TextView login;
+
+  @NonNull
   public final ConstraintLayout main;
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
       @NonNull EditText Confirmpassword, @NonNull AppCompatButton btnLogin,
       @NonNull AppCompatButton btnRegister, @NonNull EditText edtPassword,
-      @NonNull EditText edtUsername, @NonNull ConstraintLayout main) {
+      @NonNull EditText edtUsername, @NonNull ImageView imageView, @NonNull TextView login,
+      @NonNull ConstraintLayout main) {
     this.rootView = rootView;
     this.Confirmpassword = Confirmpassword;
     this.btnLogin = btnLogin;
     this.btnRegister = btnRegister;
     this.edtPassword = edtPassword;
     this.edtUsername = edtUsername;
+    this.imageView = imageView;
+    this.login = login;
     this.main = main;
   }
 
@@ -108,10 +119,22 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.login;
+      TextView login = ViewBindings.findChildViewById(rootView, id);
+      if (login == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, Confirmpassword, btnLogin,
-          btnRegister, edtPassword, edtUsername, main);
+          btnRegister, edtPassword, edtUsername, imageView, login, main);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

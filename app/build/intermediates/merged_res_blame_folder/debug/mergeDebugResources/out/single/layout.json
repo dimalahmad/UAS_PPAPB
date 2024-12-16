@@ -4,28 +4,28 @@
         "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\activity_user_home.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\item_disaster.xml",
         "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\item_disaster.xml"
     },
     {
-        "merged": "com.dimalahmad.kpu.app-mergeDebugResources-52:/layout/activity_login.xml",
-        "source": "com.dimalahmad.kpu.app-main-55:/layout/activity_login.xml"
+        "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\item_data.xml",
         "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\item_data.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\activity_edit.xml",
+        "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\activity_edit.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\activity_create.xml",
         "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\activity_create.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\activity_edit.xml",
-        "source": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-main-55:\\layout\\activity_edit.xml"
+        "merged": "com.dimalahmad.kpu.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.dimalahmad.kpu.app-main-55:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\User\\Downloads\\GmailCompose\\daemon\\8.9\\com.dimalahmad.kpu.app-mergeDebugResources-52:\\layout\\activity_login.xml",

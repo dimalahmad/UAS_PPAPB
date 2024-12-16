@@ -1,4 +1,4 @@
-#Sun Dec 15 16:46:02 WIB 2024
+#Mon Dec 16 23:38:35 WIB 2024
 base.0=C\:\\Users\\User\\Downloads\\PPAPBA_DimalKarim_A1_13_Room_KPU\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\User\\Downloads\\PPAPBA_DimalKarim_A1_13_Room_KPU\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\User\\Downloads\\PPAPBA_DimalKarim_A1_13_Room_KPU\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex

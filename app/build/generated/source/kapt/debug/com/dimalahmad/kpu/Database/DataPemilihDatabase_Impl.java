@@ -34,9 +34,9 @@ public final class DataPemilihDatabase_Impl extends DataPemilihDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS `dataPemilih_table` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `nama` TEXT NOT NULL, `NIK` TEXT NOT NULL, `alamat` TEXT NOT NULL, `jenis_kelamin` TEXT NOT NULL)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `dataPemilih_table` (`_id` TEXT NOT NULL, `nama` TEXT NOT NULL, `nik` TEXT NOT NULL, `alamat` TEXT NOT NULL, `jenis_kelamin` TEXT NOT NULL, PRIMARY KEY(`_id`))");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b136af09d53d07d078ace68ec6bbbd9b')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c93594e770af0e3ea439b58f1d1f4928')");
       }
 
       @Override
@@ -86,9 +86,9 @@ public final class DataPemilihDatabase_Impl extends DataPemilihDatabase {
       public RoomOpenHelper.ValidationResult onValidateSchema(
           @NonNull final SupportSQLiteDatabase db) {
         final HashMap<String, TableInfo.Column> _columnsDataPemilihTable = new HashMap<String, TableInfo.Column>(5);
-        _columnsDataPemilihTable.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsDataPemilihTable.put("_id", new TableInfo.Column("_id", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsDataPemilihTable.put("nama", new TableInfo.Column("nama", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsDataPemilihTable.put("NIK", new TableInfo.Column("NIK", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsDataPemilihTable.put("nik", new TableInfo.Column("nik", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsDataPemilihTable.put("alamat", new TableInfo.Column("alamat", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsDataPemilihTable.put("jenis_kelamin", new TableInfo.Column("jenis_kelamin", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysDataPemilihTable = new HashSet<TableInfo.ForeignKey>(0);
@@ -102,7 +102,7 @@ public final class DataPemilihDatabase_Impl extends DataPemilihDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "b136af09d53d07d078ace68ec6bbbd9b", "90bf51151371ca14559ad8ab88b28d0c");
+    }, "c93594e770af0e3ea439b58f1d1f4928", "ebf12c9374545f488b7d0b3ff8090b0a");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;

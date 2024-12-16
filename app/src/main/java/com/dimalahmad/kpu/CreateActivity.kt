@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.dimalahmad.kpu.API.APIClient
 import com.dimalahmad.kpu.Database.DataPemilih
-import com.dimalahmad.kpu.Network.APIService
 import com.dimalahmad.kpu.databinding.ActivityCreateBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -14,15 +13,11 @@ import retrofit2.Response
 
 class CreateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCreateBinding
-    private lateinit var apiService: APIService
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCreateBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        // Menginisialisasi APIClient untuk mendapatkan instance APIService
-        apiService = APIClient.getInstance()
 
         // Menangani klik pada tombol Simpan
         with(binding) {
@@ -46,49 +41,49 @@ class CreateActivity : AppCompatActivity() {
                     return@setOnClickListener
                 }
 
-                // Jika data valid, kirim data ke API
+                // Membuat objek DataPemilih dari input user
                 val dataPemilih = DataPemilih(
                     nama = etNamaPemilih.text.toString(),
                     nik = etNik.text.toString(),
                     jenisKelamin = gender,
-                    alamat = etAlamat.text.toString()
+                    alamat = etAlamat.text.toString(),
                 )
 
-                saveDataToAPI(dataPemilih)
+                // Memanggil fungsi untuk menambahkan data ke API
+                addDataToApi(dataPemilih)
             }
         }
     }
 
-    // Fungsi untuk menyimpan data pemilih ke API
-    private fun saveDataToAPI(dataPemilih: DataPemilih) {
+    // Fungsi untuk menambahkan data ke API
+    private fun addDataToApi(dataPemilih: DataPemilih) {
+        val apiService = APIClient.getInstance()
         apiService.addPemilih(dataPemilih).enqueue(object : Callback<DataPemilih> {
             override fun onResponse(call: Call<DataPemilih>, response: Response<DataPemilih>) {
                 if (response.isSuccessful) {
-                    // Data berhasil disimpan, beri pesan berhasil dan kembali ke MainActivity
-                    showToast("Data berhasil disimpan!")
+                    // Menampilkan pesan berhasil
+                    showToast("Data berhasil disimpan ke server!")
                     setEmptyField()
 
-                    val startActivity = Intent(this@CreateActivity, AdminHomeActivity::class.java)
-                    startActivity(startActivity)
+                    // Kembali ke AdminHomeActivity
+                    val intent = Intent(this@CreateActivity, AdminHomeActivity::class.java)
+                    startActivity(intent)
                     finish()
                 } else {
-                    // Menampilkan pesan jika gagal menyimpan data
-                    showToast("Gagal menyimpan data.")
+                    showToast("Gagal menyimpan data: ${response.message()}")
                 }
             }
 
             override fun onFailure(call: Call<DataPemilih>, t: Throwable) {
-                // Menampilkan pesan error jika terjadi kegagalan pada request
-                showToast("Error: ${t.message}")
+                // Menampilkan pesan gagal
+                showToast("Gagal menyimpan data: ${t.message}")
             }
         })
     }
 
     // Fungsi untuk menampilkan Toast message
     private fun showToast(message: String) {
-        runOnUiThread {
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-        }
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
     // Fungsi untuk membersihkan field setelah data disimpan

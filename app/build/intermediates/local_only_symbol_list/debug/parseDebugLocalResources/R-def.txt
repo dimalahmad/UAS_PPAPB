@@ -8,6 +8,7 @@ color grey
 color red
 color white
 color yellow
+drawable backgoundkpu
 drawable baseline_delete_24
 drawable baseline_edit_24
 drawable baseline_login_24
@@ -27,13 +28,16 @@ id btn_simpan
 id btn_tambah
 id cardViewContainer
 id delete
+id desc
 id edit
 id edt_password
 id edt_username
 id et_alamat
 id et_nama_pemilih
 id et_nik
+id favorite
 id imageView
+id login
 id main
 id nama
 id nomer
@@ -42,7 +46,7 @@ id rb_female
 id rb_male
 id recyclerView
 id rg_gender
-id textView
+id title
 id tv_alamat
 id tv_gender
 id tv_nama_pemilih
